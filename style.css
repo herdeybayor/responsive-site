@@ -156,15 +156,16 @@ section form button {
 	color: white;
 }
 
-footer {
-	background-color: white;
-}
-
 footer ul li {
 	display: inline-block;
 	vertical-align: top;
 	margin-top: 50px;
 	margin-left: 150px;
+}
+
+footer ul li a {
+	text-decoration: none;
+	color: black;
 }
 
 footer ul li h4 {
@@ -184,16 +185,10 @@ footer div a img {
 	margin-right: 15px;
 }
 
-/*#footer-img {
-	position: absolute;
-	transform: translate(900px, -160px);
-}*/
-
 #footer-img {
-	float: right;
-	position: relative;
-	bottom: 155px;
-	right: 160px;
+	text-align: right;
+	margin-right: 90px;
+	margin-top: -130px;
 }
 
 #chat1, #chat2 {
@@ -204,4 +199,6 @@ footer div a img {
 hr {
 	background-color: #B9B9B9;
 	height: 1px;
+	width: 90%;
+	clear: both;
 }
