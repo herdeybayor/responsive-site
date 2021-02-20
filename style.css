@@ -3,6 +3,7 @@
 	box-sizing: border-box;
 	padding: 0;
 	margin: 0;
+	/*border: 2px solid red;*/
 }
 
 #background {
@@ -30,18 +31,19 @@ header nav li{
     margin: 25px 30px 10px 0px;
 }
 
-#barrier {
+/*#barrier {
 	background-color: red;
 	width: 100%
 	height: 100px;
 	display: block;
 	margin-top: 80px;
 	visibility: hidden;
-}
+}*/
 
 header nav ul li a {
 	text-decoration: none;
 	color: white;
+	font-size: 12px;
 }
 
 header nav ul li a button {
@@ -52,6 +54,7 @@ header nav ul li a button {
 	border: transparent;
 	border-radius: 4px;
 	transform: translateY(-5px);
+	font-size: 12px;
 }
 
 #upper-txt {
@@ -66,6 +69,11 @@ header nav ul li a button {
 
 #upper-txt p {
 	text-align: center;
+}
+
+main section h2 {
+	clear: both;
+	padding-top: 50px;
 }
 
 main section ul {
@@ -176,9 +184,16 @@ footer div a img {
 	margin-right: 15px;
 }
 
-#footer-img {
+/*#footer-img {
 	position: absolute;
 	transform: translate(900px, -160px);
+}*/
+
+#footer-img {
+	float: right;
+	position: relative;
+	bottom: 155px;
+	right: 160px;
 }
 
 #chat1, #chat2 {
@@ -189,5 +204,4 @@ footer div a img {
 hr {
 	background-color: #B9B9B9;
 	height: 1px;
-	width: 87%;
 }
