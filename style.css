@@ -31,15 +31,6 @@ header nav li{
     margin: 25px 30px 10px 0px;
 }
 
-/*#barrier {
-	background-color: red;
-	width: 100%
-	height: 100px;
-	display: block;
-	margin-top: 80px;
-	visibility: hidden;
-}*/
-
 header nav ul li a {
 	text-decoration: none;
 	color: white;
@@ -100,6 +91,7 @@ input{
 	padding: 15px;
 	padding-right: 72px;
 	margin-bottom: -5px;
+	display: block;
 }
 
 .user-region {
@@ -119,6 +111,7 @@ section form button {
 	border-radius: 4px;
 	padding: 15px 55px;
 	color: white;
+	display: block;
 }
 
 .block-btn1, .block-btn2 {
@@ -201,4 +194,51 @@ hr {
 	height: 1px;
 	width: 90%;
 	clear: both;
+}
+
+#or2 {
+	display: none;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 480px){
+
+    footer ul li {
+
+	    margin-top: 0px;
+	    width: 2d0%;
+	    padding-bottom: 50px;
+	    margin-left: 50px;
+	    display: inline-block;
+
+    }
+
+    #share {
+	    margin-left: 50px;
+	    margin-top: -45px;
+    }
+    
+    #footer-copy {
+	    margin-left: 50px;
+    }
+
+    #footer-img {
+	    text-align: right;
+	    margin-right: 9px;
+	    margin-top: -130px;
+    }
+
+    #or {
+    	display: none;
+    }
+
+    #or2 {
+    	display: block;
+    	margin-top: 18px;
+    }
+
+    #form ul {
+    	margin-left: 30px
+    }
 }
